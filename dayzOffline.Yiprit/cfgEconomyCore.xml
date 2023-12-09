@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<economycore>
+	<classes>
+<!--
+These are rootclasses to be used by economy.
+Do not forget to add attribute act="character", if root class represents character (player, infected, animal)
+Do not forget to add attribute act="car", if root class represents moveable vehicles
+-->
+		<rootclass name="DefaultWeapon" /> <!-- weapons -->
+		<rootclass name="DefaultMagazine" /> <!-- magazines -->
+		<rootclass name="Inventory_Base" /> <!-- inventory items -->
+		<rootclass name="HouseNoDestruct" reportMemoryLOD="no" /> <!-- houses, wrecks -->
+		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" /> <!-- player characters -->
+		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" /> <!-- infected, animals -->
+		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+	</classes>
+	<defaults>
+		<default name="dyn_radius" value="30" />
+		<default name="dyn_smin" value="0" />
+		<default name="dyn_smax" value="0" />
+		<default name="dyn_dmin" value="1" />
+		<default name="dyn_dmax" value="5" />
+		<default name="log_ce_loop" value="false"/>
+		<default name="log_ce_dynamicevent" value="false"/>
+		<default name="log_ce_vehicle" value="false"/>
+		<default name="log_ce_lootspawn" value="false"/>
+		<default name="log_ce_lootcleanup" value="false"/>
+		<default name="log_ce_lootrespawn" value="false"/>
+		<default name="log_ce_statistics" value="false"/>
+		<default name="log_ce_zombie" value="false"/>
+		<default name="log_storageinfo" value="false"/>
+		<default name="log_hivewarning" value="true"/>
+		<default name="log_missionfilewarning" value="true"/>
+		<default name="save_events_startup" value="true"/>
+		<default name="save_types_startup" value="true"/>
+	</defaults>
+	<ce folder="Types">
+		<file name="Ammo.xml" type="types" />
+		<file name="Animals.xml" type="types" />
+		<file name="Bags.xml" type="types" />
+		<file name="Building.xml" type="types" />
+		<file name="Civi_Clothing.xml" type="types" />
+		<file name="Civi_Weapons_mags_attachments.xml" type="types" />
+		<file name="Equipment.xml" type="types" />
+		<file name="Explosives_Grenades.xml" type="types" />
+		<file name="Food_and_Drink.xml" type="types" />
+		<file name="Footwear.xml" type="types" />
+		<file name="Hand_Weapons.xml" type="types" />
+		<file name="Head_Handwear.xml" type="types" />
+		<file name="Leather.xml" type="types" />
+		<file name="Medical_and_Fire.xml" type="types" />
+		<file name="Military_Clothing.xml" type="types" />
+		<file name="Military_Equipment.xml" type="types" />
+		<file name="Military_Weapons_Mags_Attachments.xml" type="types" />
+		<file name="Misc.xml" type="types" />
+		<file name="NBC.xml" type="types" />
+		<file name="Plants_and_Related.xml" type="types" />
+		<file name="Seasonal.xml" type="types" />
+		<file name="Statics_Craftables.xml" type="types" />
+		<file name="Storage.xml" type="types" />
+		<file name="Tools.xml" type="types" />
+		<file name="Vehicle_Parts_Tools.xml" type="types" />
+		<file name="Zeds.xml" type="types" />	
+	</ce>
+<!-- <ce folder="Mods">
+	    <file name="Drones.xml" type="types" />
+		<file name="DMNS.xml" type="types" />	
+		<file name="Remastered_Helis.xml" type="types" />	
+		<file name="MMG.xml" type="types" />
+		<file name="Cheytac.xml" type="types" />
+		<file name="Much_Stuff.xml" type="types" />
+		<file name="Teddys.xml" type="types" />
+		<file name="Money.xml" type="types" />
+		<file name="Misc.xml" type="types" />
+		<file name="Seasonal.xml" type="types" />	
+		<file name="BBP.xml" type="types" />
+		<file name="DingoTypes.xml" type="types" />	
+		<file name="Jeep_Types.xml" type="types" />		
+	</ce>-->
+</economycore>

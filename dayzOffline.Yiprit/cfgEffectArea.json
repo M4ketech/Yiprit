@@ -1,0 +1,42 @@
+{
+  "Areas": 
+  [
+    {
+      "AreaName": "District13Lab",
+      "Type": "SpookyArea",
+      "TriggerType": "SpookyTrigger",
+      "Data": 
+	  {
+			"Pos": 
+			[
+			  16142,
+			  69.4,
+			  2874
+			],
+			"Radius": 360,
+			"PosHeight": 100,
+			"NegHeight": 200,
+			"InnerRingCount": 1,
+			"InnerPartDist": 50,
+			"OuterRingToggle": 1,
+			"OuterPartDist": 50,
+			"OuterOffset": 0,
+			"VerticalLayers": 0,
+			"VerticalOffset": 0,
+			"ParticleName": "graphics/particles/spooky_mist"
+      },
+      "PlayerData": 
+	  {
+			"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+			"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+			"PPERequesterType": ""
+      }
+    }
+  ],
+  "SafePositions": 
+  [
+    [
+      14751.060547,6690.734863
+    ]
+  ]
+}

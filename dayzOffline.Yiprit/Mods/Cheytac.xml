@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+<!--CheytacM200-->
+	<type name="ussr_m200">
+		<nominal>10</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons" />
+    <usage name="Military" />
+	</type>
+	<type name="ussr_m200_black">
+		<nominal>10</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons" />
+    <usage name="Military" />
+	</type>
+	<type name="M200Optic">
+		<nominal>2</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>255</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons" />
+    <usage name="Military" />
+	</type>
+	<type name="M200ZeroOptic">
+		<nominal>2</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>255</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons" />
+    <usage name="Military" />
+	</type>
+	<type name="M200Suppressor">
+		<nominal>2</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>255</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons" />
+    <usage name="Military" />
+	</type>
+	<type name="Mag_ussrm200_7Rnd">
+		<nominal>25</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>20</min>
+		<quantmin>100</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons" />
+    <usage name="Military" />
+	</type>
+	<type name="AmmoBox_408Cheytac_15Rnd">
+		<nominal>25</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>20</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons" />
+    <usage name="Military" />
+	</type>
+	<type name="Ammo_408cheytac">
+		<nominal>30</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>25</min>
+		<quantmin>1</quantmin>
+		<quantmax>40</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons" />
+    <usage name="Military" />
+	</type>
+</types>
